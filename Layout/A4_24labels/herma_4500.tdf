@@ -1,0 +1,11 @@
+%%
+%% tdf for Herma 63,5 x 33,9 mm 8x3 tickets
+%%
+\unitlength=1mm
+\hoffset=-20mm
+\voffset=-10mm
+
+\ticketNumbers{3}{8}
+
+\ticketSize{63.5}{33.9} % in unitlength
+\ticketDistance{2}{0} %in unitlength

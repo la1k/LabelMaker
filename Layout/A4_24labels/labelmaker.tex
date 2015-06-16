@@ -1,0 +1,19 @@
+\documentclass[a4paper,10pt]{article}
+\pagestyle{empty}
+\usepackage[herma_4500]{ticket}
+
+\renewcommand{\ticketdefault}{%
+  \put( 5, 13){\line(1,0){60}}
+  \put( 7, 10){\tiny Akademisk Radioklubb, Elgesetergt. 1}
+  \put( 7,  8){\tiny 7020 Trondheim, Norway}
+}
+
+\newcommand{\qslcard}[7]{\ticket{%
+  \put(35,29){\makebox[0mm]{\bfseries\Large #1}}
+  \put(35,22){\makebox[0mm]{\scriptsize UTC: #3 #4}}
+  \put(35,19){\makebox[0mm]{\scriptsize Band: \MakeUppercase{#5} -  Mode: #6 - RST: #7}}
+}}
+
+\begin{document}
+\input{contacts.tex}
+\end{document}

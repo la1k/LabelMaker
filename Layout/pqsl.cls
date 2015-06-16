@@ -53,7 +53,7 @@
 	%%%END left upper Minipage with MYCALL and locator
 	%%% BEGIN Centered upper Minipage with hamorgpic
 	\begin{minipage}{2cm}
-	\centering \includegraphics[width=1cm]{\@MYHAMORGPIC}
+AL
 
 	\footnotesize \@MYHAMORGNAME
 	\end{minipage}
