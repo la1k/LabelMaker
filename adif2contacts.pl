@@ -57,7 +57,7 @@ foreach my $rec (@records) {
 	}
 	my $call=get_field($rec, "CALL"); 
 	if ( ! $call ) { next; } # this check is for empty records
-	print '\qslcard['.$call.']';
+	print '\qslcard{'.$call.'}';
 	print '{'.get_field($rec, "QSL_VIA").'}';
 	print '{'.fdate(get_field($rec, "QSO_DATE")).'}';
 	print '{'.ftime(get_field($rec, "TIME_ON")).'}';
